@@ -1,0 +1,19 @@
+1. How do you list all the files that are in the current directory?
+ - ls -a 
+ 
+
+2. What is the command to search all files in your current directory for the word "awesome"?
+-  grep "awesome"
+
+ 
+
+3. What is the command to rename a file called badfile.txt to goodfile.txt
+- mv badfile.txt goodfile.txt
+
+
+4. How would you change the current directory to a directory called HW_7 that is inside of a directory called Homework, which is inside of your home directory?
+- cd Homework/HW_8
+ 
+
+5. What is the command to change the permissions on a file called my_work.txt to allow the file to be executable.
+- chmod +x my_work.txt
