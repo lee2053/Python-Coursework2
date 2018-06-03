@@ -1,0 +1,34 @@
+1.Answer the question: where can you find the Standard Documentation for Python?
+ 
+
+2.Write an algorithm for step 3.
+ 
+
+3. Write a program that asks the user for a path to a directory, then updates the names of all the files in the directory that contain the word draft to instead say final
+     EX: "term paper (draft).txt" would be renamed "term paper (final).txt"
+
+ 
+
+BONUS (5pts): for any .txt file that your program changes the name of, have your program add a line of text that states "Edited on " followed by the current date to the end of the text in the file that it is editing.
+
+ 
+
+Submission
+
+ 
+
+Upload your program (.py) to Canvas as a .py file. Name your file starting with YourUsername_A3_indiv and ending with .py
+
+ 
+
+e.g. If I were to upload, it would be:
+
+dpierz_A3_indiv.py
+ 
+
+Include the following information as a comment at the top of the file you submit:
+
+ 
+
+Your name
+Your group number
