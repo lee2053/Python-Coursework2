@@ -1,0 +1,32 @@
+1.Answer the question: when using strftime what is the placeholder that will display the month as a 3 letter abbreviation. (ex. "%d" is the placeholder that displays the day as a two digit number)
+ 
+
+2.Write an algorithm for step 3.
+ 
+
+3.Write a program that reads in the information from a file called ShopRecords.csvPreview the document and displays all of the items that were sold on a Friday (hint: use datetime to determine if the date lands on a Friday)
+     The output should look like the following:
+
+>>> 
+An anchor
+A skunk
+Bubbles
+A robot
+A spigot
+An old key
+A helmet
+A paw print
+Swim fins
+A tennis racket
+A thumb
+A bucket
+A bicycle
+A time machine
+Bacon
+A newsboy cap
+A board game
+A sand castle
+A football
+A saxophone
+French fries
+A butterfly
