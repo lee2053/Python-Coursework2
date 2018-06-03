@@ -1,0 +1,21 @@
+Group HW 2: Database/CGI
+
+ 
+
+CD Finder
+
+Your mission will be to do the following:
+
+ 
+
+1. Download the cd_catalog.csvPreview the document file. This document contains records for CDs.
+ 
+2. Create a MySQL table on your burrow account that has all the information contained in the cd_catalog. What types you use for your fields are up to you.
+ 
+3. Create an HTML page to ask the user what CD criteria they want to search for. This page should submit to a cgi page.
+ 
+4. The cgi page should display a table with all of the CDs that match the criteria the user submitted.
+
+ 
+
+You can see an example at: http://cgi.soic.indiana.edu/~dpierz/cdfinder.html (Links to an external site.)Links to an external site.
