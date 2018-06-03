@@ -1,0 +1,39 @@
+Answer the following questions about UNIX.
+
+ 
+
+1. How do you list all the files that are in the current directory?
+
+ 
+
+2. What is the command to search all files in your current directory for the word "awesome"?
+
+ 
+
+3. What is the command to rename a file called badfile.txt to goodfile.txt
+
+ 
+
+4. How would you change the current directory to a directory called HW_7 that is inside of a directory called Homework, which is inside of your home directory?
+
+ 
+
+5. What is the command to change the permissions on a file called my_work.txt to allow the file to be executable.
+
+ 
+
+Upload your answers to Canvas as a .txt file. Name your file starting with YourUsername_A7_indiv and ending with .txt
+
+ 
+
+e.g. If I were to upload, it would be:
+
+dpierz_A7_indiv.txt
+ 
+
+Include the following information at the top of the file you submit:
+
+ 
+
+Your name
+Your group number
