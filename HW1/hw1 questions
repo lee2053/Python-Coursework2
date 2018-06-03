@@ -1,0 +1,21 @@
+For Assignment 1 answer the questions below and submit them in a python file names yourusername_individual_1.py (replacing yourusername with your actual username. Make sure your name, username, and team number are listed in comments at the top of the file.
+
+You must also complete the Academic Integrity quiz in the Tests & Surveys section of Canvas with a 100% score (you may retake the quiz as many times as needed)
+
+ 
+
+1. Write an algorithm (not code!) for a Rock Paper Scissors game. The user should enter either rock, or paper, or scissors while the computer makes its choice randomly. The two choices are then compared with the user being told whether they won, lost, or tied. For this game Rock beats Scissors, which beats Paper, which beats Rock. Include your algorithm as comments in your submission.
+ 
+ 
+2. Write a program that takes a string as input. It should reverse the order of all the characters in the string and print it back out to the user. For example: AbC123 would be printed out as 321CbA
+
+ 
+
+3. Write a function that takes a one letter abbreviation for a day of the week and returns the full day. You may not use lists or tuples as part of your solution. Make sure you can handle invalid inputs. -5 points if your function is more than 5 lines of code long.
+print(fullweek("R"))
+>>> 
+Thursday
+
+ 
+
+4. Write the code to implement the Rock Paper Scissors game you wrote an algorithm for in part one.
