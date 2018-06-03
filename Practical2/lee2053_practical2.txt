@@ -1,0 +1,17 @@
+mysql -h db.soic.indiana.edu -p -u i211u17_lee2053 i211u17_lee2053
+
+my+sql=i211u17_lee2053
+
+CREATE TABLE Plants (PlantID int(11) NOT NULL UNIQUE AUTO_INCREMENT, CommonName varchar(32) NOT NULL, BotanicalName varchar(32) NOT NULL, Price decimal(10,2))
+
+INSERT INTO Plants (CommonName, BotanicalName, Price) VALUES ("Anemone","Anemone blanda", 8.86)
+INSERT INTO Plants (CommonName, BotanicalName, Price) VALUES ("Bee Balm","Monarda didyma", 4.59)
+INSERT INTO Plants (CommonName, BotanicalName, Price) VALUES ("Bloodroot","Sanguinaria canadensis", 2.44)
+INSERT INTO Plants (CommonName, BotanicalName, Price) VALUES ("Trillium","Trillium grandiflorum", 3.90)
+INSERT INTO Plants (CommonName, BotanicalName, Price) VALUES ("Wake Robin","Erythronium americanum", 3.20)
+
+
+CREATE TABLE Transactions (TransactionID int(11) NOT NULL UNIQUE AUTO_INCREMENT, Buyer varchar(36) NOT NULL, PlantID int(11) NOT NULL, Quantity int(11));
+
+UPDATE Plants SET CommonName ="Rose" WHERE Price = 3.20;
+UPDATE Plants SET Price =11.32 WHERE CommonName ="Anemone";
