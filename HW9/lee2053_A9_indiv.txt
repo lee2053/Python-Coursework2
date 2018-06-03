@@ -1,0 +1,11 @@
+1.(25 points) Create a table called Singer, when described it should have the following values:
+ -   CREATE TABLE Singer (SingerID int(11) UNIQUE, FirstName varchar(30), LastName varchar(30), Label varchar(30), Salary int(11), Style varchar(30));
+
+2.(25 points) Create a table called Tour, when described it should have the following values:
+ -   CREATE TABLE Tour (TourID int(11) UNIQUE, TourName varchar(30), Begin date, End date, Headliner int(11));
+
+3.(25 points) Write a statement that will add an individual to the Singer table.
+ -   INSERT INTO Singer VALUES (1, 'Jay', 'Lee', 'Columbia', '200000000', 'ballad');
+
+4.(25 points) Write a statement that will show all the singers who have a salary greater than 100000 on the Columbia Label.
+ -  SELECT * FROM Singer WHERE Salary > 100000 Label = 'Columbia';
