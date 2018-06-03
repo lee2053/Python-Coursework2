@@ -1,0 +1,15 @@
+1.Answer the question: what is the pattern that would match a hex color (Links to an external site.)Links to an external site. code.
+ 
+
+2.Write an algorithm for step 3.
+ 
+
+3.Write a program that looks at the source of http://cgi.soic.indiana.edu/~dpierz/mbball.html (Links to an external site.)Links to an external site. (a copy of the IU men's basketball team record page). Use regular expressions to find all the games IU has played in this year and calculate the total number of wins and losses (including exhibition games)
+     The output should look like the following:
+
+Wins: 17
+Losses: 13
+
+Bonus [10 pts]. Extend your code from part 3 to also calculate the total difference in points scored in all the games (a game that finished 68-71 would have a difference of 3 points, 85-52 a difference of 33 points etc)
+
+Total Difference: 501
