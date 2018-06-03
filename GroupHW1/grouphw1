@@ -1,0 +1,169 @@
+Group HW: Indiana storms in 2015
+
+ 
+
+Start by reading the I211 Group RolesPreview the document document. Assign every team member one of the group roles.
+
+ 
+
+A file containing data on all storm events recorded by the National Weather Service in Indiana in 2015 can be accessed here: Indiana_Storms.csvPreview the document
+
+ 
+
+(30 points) Write a function storm_by_event which takes an event type and prints out information on all events of that type in Indiana for the year
+
+For example:
+
+>>>
+
+event = “Dense Fog”
+
+storm_by_event(event)
+
+A Dense Fog happened on 8/8/2015 in PIKE county.
+
+A Dense Fog happened on 8/8/2015 in POSEY County.
+
+A Dense Fog happened on 8/8/2015 in SPENCER County.
+
+A Dense Fog happened on 8/8/2015 in WARRICK County.
+
+A Dense Fog happened on 8/8/2015 in VANDERBURGH County.
+
+A Dense Fog happened on 8/8/2015 in GIBSON county.
+
+A Dense Fog happened on 3/11/2015 in SPENCER county.
+
+A Dense Fog happened on 3/11/2015 in VANDERBURGH county.
+
+A Dense Fog happened on 3/11/2015 in WARRICK county.
+
+A Dense Fog happened on 3/11/2015 in GIBSON county.
+
+A Dense Fog happened on 3/11/2015 in PIKE county.
+
+A Dense Fog happened on 3/11/2015 in POSEY county.
+
+A Dense Fog happened on 3/10/2015 in WHITE county.
+
+ 
+
+ 
+
+(30 points) Write a function storm_by_date which takes a date and prints out information on every storm event in Indiana occurring on that date
+
+For example:
+
+ 
+
+>>>
+
+date = datetime.date(2015, 5, 15)
+
+storm_by_date(date)
+
+A Thunderstorm Wind happened on 5/15/2015 in VIGO County.
+
+A Thunderstorm Wind happened on 5/15/2015 in HAMILTON county.
+
+A Thunderstorm Wind happened on 5/15/2015 in SULLIVAN county.
+
+A Thunderstorm Wind happened on 5/15/2015 in VIGO county.
+
+ 
+
+(40 points) Dynamic interaction: Modify your code so that the user is asked if they would like to search by date or by event, making sure you get a valid answer. If they choose to search by date, ask them for a date and show the events happening on that date. If they select event show the events of that type.
+
+ 
+
+For eample:
+
+>>>
+
+Would you like to search by date or by event? Cookies
+
+That is not a valid selection. Please try again.
+
+Would you like to search by date or by event? date
+
+Please enter your date in YYYY/MM/DD format: 2015/05/15
+
+A Thunderstorm Wind happened on 5/15/2015 in VIGO county.
+
+A Thunderstorm Wind happened on 5/15/2015 in HAMILTON county.
+
+A Thunderstorm Wind happened on 5/15/2015 in SULLIVAN county.
+
+A Thunderstorm Wind happened on 5/15/2015 in VIGO county.
+
+ 
+
+Another example:
+
+>>>
+
+Would you like to search by date or by event? event
+
+Please enter the type of weather you are searching for: Dense Fog
+
+A Dense Fog happened on 8/8/2015 in PIKE county.
+
+A Dense Fog happened on 8/8/2015 in POSEY county.
+
+A Dense Fog happened on 8/8/2015 in SPENCER county.
+
+A Dense Fog happened on 8/8/2015 in WARRICK county.
+
+A Dense Fog happened on 8/8/2015 in VANDERBURGH county.
+
+A Dense Fog happened on 8/8/2015 in GIBSON county.
+
+A Dense Fog happened on 3/11/2015 in SPENCER county.
+
+A Dense Fog happened on 3/11/2015 in VANDERBURGH county.
+
+A Dense Fog happened on 3/11/2015 in WARRICK county.
+
+A Dense Fog happened on 3/11/2015 in GIBSON county.
+
+A Dense Fog happened on 3/11/2015 in PIKE county.
+
+A Dense Fog happened on 3/11/2015 in POSEY county.
+
+A Dense Fog happened on 3/10/2015 in WHITE county.
+
+ 
+
+ 
+
+(Bonus +10) Narrative events: Alter the format of your output so that it includes full descriptions of each event, nicely formatted. 
+
+For example:
+
+>>>
+
+Would you like to search by date or by the event? date
+
+Please enter your date in YYYY/MM/DD format: 2015/5/15
+
+ 
+
+On Friday the 15 of May Showers and thunderstorms pushed northeast into west-central and southwest Indiana during the evening hours of May the 15th. These storms produced severe winds as they moved northeast into southwest and central Indiana. This was reported in Vigo county. The observing station at the Terre Haute Airport measured a 60 mph thunderstorm wind gust.
+
+ 
+
+ 
+
+On Friday the 15 of May Showers and thunderstorms pushed northeast into west-central and southwest Indiana during the evening hours of May the 15th. These storms produced severe winds as they moved northeast into southwest and central Indiana. This was reported in Hamilton county. Power lines were reported down at 226th Street and State Route 38 due to damaging thunderstorm wind gusts.
+
+ 
+
+ 
+
+On Friday the 15 of May Showers and thunderstorms pushed northeast into west-central and southwest Indiana during the evening hours of May the 15th. These storms produced severe winds as they moved northeast into southwest and central Indiana. This was reported in Sullivan county. A measured 60 mph thunderstorm wind gust was observed at the Channel 2 location.
+
+ 
+
+ 
+
+On Friday the 15 of May Showers and thunderstorms pushed northeast into west-central and southwest Indiana during the evening hours of May the 15th. These storms produced severe winds as they moved northeast into southwest and central Indiana. This was reported in Vigo County. Small tree limbs were reported down in this location due to damaging thunderstorm wind gust estimated at 60 mph.
