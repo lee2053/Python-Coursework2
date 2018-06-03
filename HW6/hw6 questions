@@ -1,0 +1,11 @@
+Download the library.xmlPreview the document file. The root element is CATALOG and contains a series of BOOK elements, each of which represents a single BOOK. Each BOOK element has a number of child elements such as AUTHOR, TITLE, GENRE, PRICE and so on.
+
+ 
+
+Write a program to read the file and print out the following information with an appropriate message:
+
+1.   (40 points) Write a function called display_book that prints the title, author, and price of the book with a certain id (passed as a parameter). Example call: display_book(“bk107”)
+
+2.   (30 points) Display the title, author, and price of each Computer book released in December.
+
+3.   (30 points) Print all the genres in the file.
