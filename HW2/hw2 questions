@@ -1,0 +1,88 @@
+Given a file like this:
+
+Blake 4
+
+Bolt 1
+
+De Grasse 3
+
+Gatlin 2
+
+Simbine 5
+
+Youssef Meite 6
+
+ 
+
+Your program when completed should produce output like this:
+
+>>>
+
+In the 2016 100 yard dash the top finishers were:
+
+Blake
+
+Bolt
+
+De Grasse
+
+Gatlin
+
+Simbine
+
+Youssef Meite
+
+ 
+
+The people with a two part name are: ['De Grasse', 'Youssef Meite']
+
+ 
+
+The top three finishers were: ['Bolt', 'De Grasse', 'Gatlin']
+
+ 
+
+Your mission will be to do the following:
+
+ 
+
+1. Develop algorithms to solve all remaining steps in this problem.
+
+ 
+
+2. Use a list comprehension to load the data from a file named “runners.txt”. There’s a sample filePreview the documentView in a new window on Canvas with the data shown above.
+
+ 
+
+3. Use the information read in from the file to print out the names of the top 6 finishers formatted as shown in the example above.
+
+ 
+
+4. Use a list comprehension to create a list of the names that have two parts to them.
+
+ 
+
+5. Use a list comprehension to create a list of the people who finished in the top three positions.
+
+ 
+
+Submission
+
+ 
+
+Upload your program (.py) to Canvas under Assignments -> Individual Homework 2 as a .py file. Name your file starting with YourUsername_A2_indiv and ending with .py
+
+ 
+
+e.g. If I were to upload, it would be:
+
+dpierz_A2_indiv.py
+ 
+
+Include the following information as a comment at the top of the file you submit:
+
+ 
+
+· Your name
+
+· Your group number
